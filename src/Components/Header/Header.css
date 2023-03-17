@@ -1,0 +1,40 @@
+.header{
+    font-weight: bold;
+    font-size: x-small;
+    text-align: center;
+    
+}
+.emogi{
+    font-size: 4rem;
+}
+.continue{
+    display: flex;
+    align-items: center;
+
+    justify-content: space-around;
+    padding: 1rem;
+}
+.continue::before{
+    
+    
+    background-color: #D6D6D6;
+    content:"" ;
+    display: block;
+    height: 2px;
+    width: 80px;      
+
+}
+.continue::after{
+    
+    
+    background-color: #D6D6D6;
+    content:"" ;
+    display: block;
+    height: 2px;
+    width: 80px;      
+
+}
+.continue>span{
+    font-size: larger;
+    color: grey;
+}

@@ -1,0 +1,31 @@
+.text-start{
+    text-align: start;
+    float: left;
+    min-width: 17px;
+    font-size: 11px;
+    text-transform: uppercase;
+
+}
+.inputfield{
+    background-color: #E7ECF1 !important;
+}
+
+#formBasicEmail{
+  background-color : black; 
+
+}
+a{
+    list-style: none;
+    text-decoration: none !important;
+    color: red;
+}
+a::hover{
+    color: red;
+    
+
+}
+.error{
+    color: red;
+    font-size: xx-small;
+
+}
